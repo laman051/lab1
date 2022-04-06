@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/bangtinh" />
+
+    <EditText
+        android:id="@+id/a"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/nh_p_a"
+        android:inputType="numberDecimal"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/b"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/nh_p_b"
+        android:inputType="numberDecimal"
+        android:autofillHints="" />
+
+    <TextView
+        android:id="@+id/tvtketqua"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/textview" />
+
+    <Button
+        android:id="@+id/btncong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/c_ng" />
+
+    <Button
+        android:id="@+id/btntru"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tr" />
+
+    <Button
+        android:id="@+id/btnnhan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/nh_n" />
+
+    <Button
+        android:id="@+id/btnchia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/chia" />
+</LinearLayout>

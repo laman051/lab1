@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">BT</string>
+    <string name="bangtinh">Bảng tính</string>
+    <string name="textview">TextView</string>
+    <string name="c_ng">Cộng</string>
+    <string name="tr">Trừ</string>
+    <string name="nh_n">Nhân</string>
+    <string name="chia">CHIA</string>
+    <string name="nh_p_a">Nhập a</string>
+    <string name="nh_p_b">Nhập b</string>
+</resources>
